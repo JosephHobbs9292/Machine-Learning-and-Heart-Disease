@@ -19,3 +19,13 @@ Oldpeak increase as people get older: No one under 50 had an oldpeak over 4 whil
 ---
 ### Model Analysis
 
+The model I would recomend for indentifying heart disease in people is a logisitic regression model. It had the highest recall on the testing data of 78%. Recall is the most important metric in this data because a false negative is the most dangerous scenario. A false negative in this instance would mean that a person is falsely identified of being free of heart disease when they in face have it. A false negative would therefore lead a patient to not recieve the treatment they need and may lead to serious illness or even death. 
+
+              precision    recall  f1-score   support
+
+           0       0.69      0.67      0.68        98
+           1       0.76      0.78      0.77       132
+
+    accuracy                           0.73       230
+   macro avg       0.73      0.73      0.73       230
+weighted avg       0.73      0.73      0.73       230
