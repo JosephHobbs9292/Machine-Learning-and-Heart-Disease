@@ -27,5 +27,4 @@ The model I would recomend for indentifying heart disease in people is a logisit
            1       0.76      0.78      0.77       132
 
     accuracy                           0.73       230
-   macro avg       0.73      0.73      0.73       230
-weighted avg       0.73      0.73      0.73       230
+
