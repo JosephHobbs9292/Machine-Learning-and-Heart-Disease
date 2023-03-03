@@ -28,3 +28,11 @@ The model I would recomend for indentifying heart disease in people is a logisit
 
     accuracy                           0.73       230
 
+The model would before adequately ro identify potential heart disease, however, it's metrics are not high enough to safely be used to identify heart disease amongst incoming patient based solely on their biomedical data. With metric scored in the high 60s and low 70s the model would need more data to train on in order to improve key metrics such as precision and recall. The model was only able to correctly predict ~73% of heart disease in the testing data which is still too low for something so serious. 
+
+---
+
+### Recommendations 
+---
+1. With such a small sample size of less that a 1000 it is challenging to make a predictive model with high accuracy. Therefore, more data is needed. More data would also increase variety in the data and lead to including more people of different health backgrounds creating a more all encompassing model. 
+2. To idenfity heart disease in patients look primarily at their age, max heart rate, and oldpeak. These were the only features with a medium correlation with heart disease our target. 
