@@ -54,7 +54,7 @@ The model I would recomend for indentifying heart disease in people is a logisit
 weighted avg       0.84      0.84      0.84       230
 
 
-The model would before adequately to identify potential heart disease, however, it's metrics are not high enough to safely be used to identify heart disease amongst incoming patient based solely on their biomedical data. With metric scored in the high 60s and low 70s the model would need more data to train on in order to improve key metrics such as precision and recall. The model was only able to correctly predict ~73% of heart disease in the testing data which is still too low for something so serious. 
+The model would preform adequately to identify potential heart disease, with a recall score of 89% it will catch roughly 9/10 false negatives ensuring the cast majority of patients will know that they have heart disease in the instance where they do have it. However, with such a serious condition being underconsideration more data is needed to improve model outcomes and thus patient outcomes. 
 
 ---
 
