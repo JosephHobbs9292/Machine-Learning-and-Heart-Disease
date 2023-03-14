@@ -7,7 +7,7 @@ josephecobbs@gmail.com
 ---
 ###
 
-Each row in this data set represents one patient and their individual health data related to heart disease. The data in
+Each row in this data set represents one patient and their individual health data related to heart disease. 
 
 Age 
 Resting Blood Pressure 
@@ -22,6 +22,12 @@ Resting ECG
 Exercise Angina
 ST Slope
 
+---
+###
+
+Summary:
+
+Several features correlated best with heart disease. Those were: Oldpeak, Age, and Max heart rate. After binning this features the models predictive scores were approximately ~85% 
 
 ---
 ### Question: What are the best features to predict heart disease?
