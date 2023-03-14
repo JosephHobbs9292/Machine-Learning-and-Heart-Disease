@@ -1,5 +1,28 @@
 # Project2
 
+Joseph Cobbs
+josephecobbs@gmail.com
+
+
+---
+###
+
+Each row in this data set represents one patient and their individual health data related to heart disease. The data in
+
+Age 
+Resting Blood Pressure 
+Cholesterol 
+Fasting Blood Sugar 
+Max Heart Rate
+Oldpeak
+Heart Disease 
+Sex
+Chest Pain Type
+Resting ECG
+Exercise Angina
+ST Slope
+
+
 ---
 ### Question: What are the best features to predict heart disease?
 The following models are trying to predict heart disease amongst people based on their biomedical data. That data includes information on the patient's age, resting blood pressure, cholesterol, fasting blood sugar, their max heart rate, and oldpeak. What was found in the data is that the 3 features with greatest corelation, positive or negative, with heart diseae are age, max heart rate, and oldpeak. 
@@ -21,14 +44,17 @@ Oldpeak increase as people get older: No one under 50 had an oldpeak over 4 whil
 
 The model I would recomend for indentifying heart disease in people is a logisitic regression model. It had the highest recall on the testing data of 78%. Recall is the most important metric in this data because a false negative is the most dangerous scenario. A false negative in this instance would mean that a person is falsely identified of being free of heart disease when they in face have it. A false negative would therefore lead a patient to not recieve the treatment they need and may lead to serious illness or even death. 
 
-              precision    recall  f1-score   support
+       precision    recall  f1-score   support
 
-           0       0.69      0.67      0.68        98
-           1       0.76      0.78      0.77       132
+           0       0.79      0.86      0.82        98
+           1       0.89      0.83      0.85       132
 
-    accuracy                           0.73       230
+    accuracy                           0.84       230
+   macro avg       0.84      0.84      0.84       230
+weighted avg       0.84      0.84      0.84       230
 
-The model would before adequately ro identify potential heart disease, however, it's metrics are not high enough to safely be used to identify heart disease amongst incoming patient based solely on their biomedical data. With metric scored in the high 60s and low 70s the model would need more data to train on in order to improve key metrics such as precision and recall. The model was only able to correctly predict ~73% of heart disease in the testing data which is still too low for something so serious. 
+
+The model would before adequately to identify potential heart disease, however, it's metrics are not high enough to safely be used to identify heart disease amongst incoming patient based solely on their biomedical data. With metric scored in the high 60s and low 70s the model would need more data to train on in order to improve key metrics such as precision and recall. The model was only able to correctly predict ~73% of heart disease in the testing data which is still too low for something so serious. 
 
 ---
 
