@@ -31,7 +31,7 @@ The following models are trying to predict heart disease amongst people based on
 ### First Insight
 Max heart rate delines as people age: as people age their is downward trend where their max heart rate declines.
 
-
+![image](https://user-images.githubusercontent.com/49537432/225137283-df658c7e-3b51-4145-b749-6f0af2de7d27.png)
 
 ---
 ### Second Insight
