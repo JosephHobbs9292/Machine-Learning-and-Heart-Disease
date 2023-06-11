@@ -1,4 +1,4 @@
-# Project2
+# Machine Learning and Heart Disease
 
 Joseph Cobbs
 josephecobbs@gmail.com
